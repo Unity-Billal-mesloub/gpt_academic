@@ -5,7 +5,7 @@
 > 2025.2.2: 三分钟快速接入最强qwen2.5-max[视频](https://www.bilibili.com/video/BV1LeFuerEG4)<br/>
 > 2025.2.1: 支持自定义字体<br/>
 > 2024.10.10: 突发停电，紧急恢复了提供[whl包](https://drive.google.com/drive/folders/14kR-3V-lIbvGxri4AHc8TpiA1fqsw7SK?usp=sharing)的文件服务器<br/>
-> 2024.5.1: 加入Doc2x翻译PDF论文的功能，[查看详情](https://github.com/binary-husky/gpt_academic/wiki/Doc2x)<br/>
+> 2024.5.1: 加入Doc2x翻译PDF论文的功能，[查看详情](https://github.com/Unity-Billal-mesloub/gpt_academic/wiki/Doc2x)<br/>
 > 2024.3.11: 全力支持Qwen、GLM、DeepseekCoder等中文大语言模型！ SoVits语音克隆模块，[查看详情](https://www.bilibili.com/video/BV1Rp421S7tF/)<br/>
 > 2024.1.17: 安装依赖时，请选择`requirements.txt`中**指定的版本**。 安装命令：`pip install -r requirements.txt`。<br/>
 
@@ -30,12 +30,11 @@
 [Wiki-image]: https://img.shields.io/badge/wiki-项目文档-black?style=flat-square
 [PRs-image]: https://img.shields.io/badge/PRs-welcome-pink?style=flat-square
 
-[Github-url]: https://github.com/binary-husky/gpt_academic
-[License-url]: https://github.com/binary-husky/gpt_academic/blob/master/LICENSE
-[Releases-url]: https://github.com/binary-husky/gpt_academic/releases
-[Installation-url]: https://github.com/binary-husky/gpt_academic#installation
-[Wiki-url]: https://github.com/binary-husky/gpt_academic/wiki
-[PRs-url]: https://github.com/binary-husky/gpt_academic/pulls
+[Github-url]: https://github.com/Unity-Billal-mesloub/gpt_academic
+[Releases-url]: https://github.com/Unity-Billal-mesloub/gpt_academic/releases
+[Installation-url]: https://github.com/Unity-Billal-mesloub/gpt_academic#installation
+[Wiki-url]: https://github.com/Unity-Billal-mesloub/gpt_academic/wiki
+[PRs-url]: https://github.com/Unity-Billal-mesloub/gpt_academic/pulls
 
 
 </div>
@@ -48,8 +47,8 @@ Read this in [English](docs/README.English.md) | [日本語](docs/README.Japanes
 <br>
 
 > [!NOTE]
-> 1.本项目中每个文件的功能都在[自译解报告](https://github.com/binary-husky/gpt_academic/wiki/GPT‐Academic项目自译解报告)`self_analysis.md`详细说明。随着版本的迭代，您也可以随时自行点击相关函数插件，调用GPT重新生成项目的自我解析报告。常见问题请查阅wiki。
->    [![常规安装方法](https://img.shields.io/static/v1?label=&message=常规安装方法&color=gray)](#installation)  [![一键安装脚本](https://img.shields.io/static/v1?label=&message=一键安装脚本&color=gray)](https://github.com/binary-husky/gpt_academic/releases)  [![配置说明](https://img.shields.io/static/v1?label=&message=配置说明&color=gray)](https://github.com/binary-husky/gpt_academic/wiki/项目配置说明) [![wiki](https://img.shields.io/static/v1?label=&message=wiki&color=gray)]([https://github.com/binary-husky/gpt_academic/wiki/项目配置说明](https://github.com/binary-husky/gpt_academic/wiki))
+> 1.本项目中每个文件的功能都在[自译解报告](https://github.com/gpt_academic-new/gpt_academic/wiki/GPT‐Academic项目自译解报告)`self_analysis.md`详细说明。随着版本的迭代，您也可以随时自行点击相关函数插件，调用GPT重新生成项目的自我解析报告。常见问题请查阅wiki。
+>    [![常规安装方法](https://img.shields.io/static/v1?label=&message=常规安装方法&color=gray)](#installation)  [![一键安装脚本](https://img.shields.io/static/v1?label=&message=一键安装脚本&color=gray)](https://github.com/Unity-Billal-mesloub/gpt_academic/releases)  [![配置说明](https://img.shields.io/static/v1?label=&message=配置说明&color=gray)](https://github.com/Unity-Billal-mesloub/gpt_academic/wiki/项目配置说明) [![wiki](https://img.shields.io/static/v1?label=&message=wiki&color=gray)]([https://github.com/Unity-Billal-mesloub/gpt_academic/wiki/项目配置说明](https://github.com/Unity-Billal-mesloub/gpt_academic/wiki))
 >
 > 2.本项目兼容并鼓励尝试国内中文大语言基座模型如通义千问，智谱GLM等。支持多个api-key共存，可在配置文件中填写如`API_KEY="openai-key1,openai-key2,azure-key3,api2d-key4"`。需要临时更换`API_KEY`时，在输入区输入临时的`API_KEY`然后回车键提交即可生效。
 
@@ -59,29 +58,29 @@ Read this in [English](docs/README.English.md) | [日本語](docs/README.Japanes
 
 功能（⭐= 近期新增功能） | 描述
 --- | ---
-⭐[接入新模型](https://github.com/binary-husky/gpt_academic/wiki/%E5%A6%82%E4%BD%95%E5%88%87%E6%8D%A2%E6%A8%A1%E5%9E%8B) | 百度[千帆](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Nlks5zkzu)与文心一言, 通义千问[Qwen](https://modelscope.cn/models/qwen/Qwen-7B-Chat/summary)，上海AI-Lab[书生](https://github.com/InternLM/InternLM)，讯飞[星火](https://xinghuo.xfyun.cn/)，[LLaMa2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)，[智谱GLM4](https://open.bigmodel.cn/)，DALLE3, [DeepseekCoder](https://coder.deepseek.com/)
+⭐[接入新模型](https://github.com/Unity-Billal-mesloub/gpt_academic/wiki/%E5%A6%82%E4%BD%95%E5%88%87%E6%8D%A2%E6%A8%A1%E5%9E%8B) | 百度[千帆](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Nlks5zkzu)与文心一言, 通义千问[Qwen](https://modelscope.cn/models/qwen/Qwen-7B-Chat/summary)，讯飞[星火](https://xinghuo.xfyun.cn/)，[LLaMa2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)，[智谱GLM4](https://open.bigmodel.cn/)，DALLE3, [DeepseekCoder](https://coder.deepseek.com/)
 ⭐支持mermaid图像渲染 | 支持让GPT生成[流程图](https://www.bilibili.com/video/BV18c41147H9/)、状态转移图、甘特图、饼状图、GitGraph等等（3.7版本）
-⭐Arxiv论文精细翻译 ([Docker](https://github.com/binary-husky/gpt_academic/pkgs/container/gpt_academic_with_latex)) | [插件] 一键[以超高质量翻译arxiv论文](https://www.bilibili.com/video/BV1dz4y1v77A/)，目前最好的论文翻译工具
-⭐[实时语音对话输入](https://github.com/binary-husky/gpt_academic/blob/master/docs/use_audio.md) | [插件] 异步[监听音频](https://www.bilibili.com/video/BV1AV4y187Uy/)，自动断句，自动寻找回答时机
+⭐Arxiv论文精细翻译 ([Docker](https://github.com/Unity-Billal-mesloub/gpt_academic/pkgs/container/gpt_academic_with_latex)) | [插件] 一键[以超高质量翻译arxiv论文](https://www.bilibili.com/video/BV1dz4y1v77A/)，目前最好的论文翻译工具
+⭐[实时语音对话输入](https://github.com/Unity-Billal-mesloub/gpt_academic/blob/main/docs/use_audio.md) | [插件] 异步[监听音频](https://www.bilibili.com/video/BV1AV4y187Uy/)，自动断句，自动寻找回答时机
 ⭐虚空终端插件 | [插件] 能够使用自然语言直接调度本项目其他插件
 润色、翻译、代码解释 | 一键润色、翻译、查找论文语法错误、解释代码
 [自定义快捷键](https://www.bilibili.com/video/BV14s4y1E7jN) | 支持自定义快捷键
-模块化设计 | 支持自定义强大的[插件](https://github.com/binary-husky/gpt_academic/tree/master/crazy_functions)，插件支持[热更新](https://github.com/binary-husky/gpt_academic/wiki/%E5%87%BD%E6%95%B0%E6%8F%92%E4%BB%B6%E6%8C%87%E5%8D%97)
+模块化设计 | 支持自定义强大的[插件](https://github.com/Unity-Billal-mesloub/gpt_academic/tree/main/crazy_functions)，插件支持[热更新](https://github.com/Unity-Billal-mesloub/gpt_academic/wiki/%E5%87%BD%E6%95%B0%E6%8F%92%E4%BB%B6%E6%8C%87%E5%8D%97)
 [程序剖析](https://www.bilibili.com/video/BV1cj411A7VW) | [插件] 一键剖析Python/C/C++/Java/Lua/...项目树 或 [自我剖析](https://www.bilibili.com/video/BV1cj411A7VW)
 读论文、[翻译](https://www.bilibili.com/video/BV1KT411x7Wn)论文 | [插件] 一键解读latex/pdf论文全文并生成摘要
 Latex全文[翻译](https://www.bilibili.com/video/BV1nk4y1Y7Js/)、[润色](https://www.bilibili.com/video/BV1FT411H7c5/) | [插件] 一键翻译或润色latex论文
 批量注释生成 | [插件] 一键批量生成函数注释
-Markdown[中英互译](https://www.bilibili.com/video/BV1yo4y157jV/) | [插件] 看到上面5种语言的[README](https://github.com/binary-husky/gpt_academic/blob/master/docs/README.English.md)了吗？就是出自他的手笔
+Markdown[中英互译](https://www.bilibili.com/video/BV1yo4y157jV/) | [插件] 看到上面5种语言的[README](https://github.com/Unity-Billal-mesloub/gpt_academic/blob/main/docs/README.English.md)了吗？就是出自他的手笔
 [PDF论文全文翻译功能](https://www.bilibili.com/video/BV1KT411x7Wn) | [插件] PDF论文提取题目&摘要+翻译全文（多线程）
 [Arxiv小助手](https://www.bilibili.com/video/BV1LM4y1279X) | [插件] 输入arxiv文章url即可一键翻译摘要+下载PDF
 Latex论文一键校对 | [插件] 仿Grammarly对Latex文章进行语法、拼写纠错+输出对照PDF
 [谷歌学术统合小助手](https://www.bilibili.com/video/BV19L411U7ia) | [插件] 给定任意谷歌学术搜索页面URL，让gpt帮你[写relatedworks](https://www.bilibili.com/video/BV1GP411U7Az/)
 互联网信息聚合+GPT | [插件] 一键[让GPT从互联网获取信息](https://www.bilibili.com/video/BV1om4y127ck)回答问题，让信息永不过时
 公式/图片/表格显示 | 可以同时显示公式的[tex形式和渲染形式](https://user-images.githubusercontent.com/96192199/230598842-1d7fcddd-815d-40ee-af60-baf488a199df.png)，支持公式、代码高亮
-启动暗色[主题](https://github.com/binary-husky/gpt_academic/issues/173) | 在浏览器url后面添加```/?__theme=dark```可以切换dark主题
-[多LLM模型](https://www.bilibili.com/video/BV1wT411p7yf)支持 | 同时被GPT3.5、GPT4、[清华ChatGLM2](https://github.com/THUDM/ChatGLM2-6B)、[复旦MOSS](https://github.com/OpenLMLab/MOSS)伺候的感觉一定会很不错吧？
-更多LLM模型接入，支持[huggingface部署](https://huggingface.co/spaces/qingxu98/gpt-academic) | 加入Newbing接口(新必应)，引入清华[Jittorllms](https://github.com/Jittor/JittorLLMs)支持[LLaMA](https://github.com/facebookresearch/llama)和[盘古α](https://openi.org.cn/pangu/)
-⭐[void-terminal](https://github.com/binary-husky/void-terminal) pip包 | 脱离GUI，在Python中直接调用本项目的所有函数插件（开发中）
+启动暗色[主题](https://github.com/Unity-Billal-mesloub/gpt_academic/issues) | 在浏览器url后面添加```/?__theme=dark```可以切换dark主题
+[多LLM模型](https://www.bilibili.com/video/BV1wT411p7yf)支持 | 同时被GPT3.5、GPT4、
+更多LLM模型接入，支持[huggingface部署](https://huggingface.co/spaces/qingxu98/gpt-academic) | 加入Newbing接口(新必应)，引入清华[Jittorllms](https://github.com/Unity-and-wireless-communications/JittorLLMs)支持[LLaMA](https://github.com/Unity-Educational-Formation/llama)和[盘古α](https://openi.org.cn/pangu/)
+⭐[void-terminal](https://github.com/Unity-Billal-mesloub/void-terminal) pip包 | 脱离GUI，在Python中直接调用本项目的所有函数插件（开发中）
 更多新功能展示 (图像生成等) …… | 见本文档结尾处 ……
 </div>
 
@@ -92,7 +91,7 @@ Latex论文一键校对 | [插件] 仿Grammarly对Latex文章进行语法、拼�
 </div>
 
 <div align="center">
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/70ff1ec5-e589-4561-a29e-b831079b37fb.gif" width="700" >
+<img src="https://github.com/binary-husky/Unity-Billal-mesloub/assets/96192199/70ff1ec5-e589-4561-a29e-b831079b37fb.gif" width="700" >
 </div>
 
 
@@ -148,17 +147,17 @@ flowchart TD
 1. 下载项目
 
     ```sh
-    git clone --depth=1 https://github.com/binary-husky/gpt_academic.git
+    git clone --depth=1 https://github.com/Unity-Billal-mesloub/gpt_academic.git
     cd gpt_academic
     ```
 
 2. 配置API_KEY等变量
 
-    在`config.py`中，配置API KEY等变量。[特殊网络环境设置方法](https://github.com/binary-husky/gpt_academic/issues/1)、[Wiki-项目配置说明](https://github.com/binary-husky/gpt_academic/wiki/项目配置说明)。
+    在`config.py`中，配置API KEY等变量。[特殊网络环境设置方法](https://github.com/Unity-Billal-mesloub/gpt_academic/issues)、[Wiki-项目配置说明](https://github.com/Unity-Billal-mesloub/gpt_academic/wiki/项目配置说明)。
 
     「 程序会优先检查是否存在名为`config_private.py`的私密配置文件，并用其中的配置覆盖`config.py`的同名配置。如您能理解以上读取逻辑，我们强烈建议您在`config.py`同路径下创建一个名为`config_private.py`的新配置文件，并使用`config_private.py`配置项目，从而确保自动更新时不会丢失配置 」。
 
-    「 支持通过`环境变量`配置项目，环境变量的书写格式参考`docker-compose.yml`文件或者我们的[Wiki页面](https://github.com/binary-husky/gpt_academic/wiki/项目配置说明)。配置读取优先级: `环境变量` > `config_private.py` > `config.py` 」。
+    「 支持通过`环境变量`配置项目，环境变量的书写格式参考`docker-compose.yml`文件或者我们的[Wiki页面](https://github.com/Unity-Billal-mesloub/gpt_academic/wiki/项目配置说明)。配置读取优先级: `环境变量` > `config_private.py` > `config.py` 」。
 
 
 3. 安装依赖
@@ -207,8 +206,8 @@ AVAIL_LLM_MODELS = ["gpt-3.5-turbo", "api2d-gpt-3.5-turbo", "gpt-4", "api2d-gpt-
 pip install bitsandbyte
 # windows用户安装bitsandbytes需要使用下面bitsandbytes-windows-webui
 python -m pip install bitsandbytes --prefer-binary --extra-index-url=https://jllllll.github.io/bitsandbytes-windows-webui
-pip install -U git+https://github.com/huggingface/transformers.git
-pip install -U git+https://github.com/huggingface/accelerate.git
+pip install -U git+https://github.com/Unity-Educational-Formation/transformers.git
+pip install -U git+https://github.com/Unity-Educational-Formation/accelerate.git
 pip install peft
 ```
 
@@ -225,7 +224,7 @@ pip install peft
 ### 安装方法II：使用Docker
 
 0. 部署项目的全部能力（这个是包含cuda和latex的大型镜像。但如果您网速慢、硬盘小，则不推荐该方法部署完整项目）
-[![fullcapacity](https://github.com/binary-husky/gpt_academic/actions/workflows/build-with-all-capacity.yml/badge.svg?branch=master)](https://github.com/binary-husky/gpt_academic/actions/workflows/build-with-all-capacity.yml)
+[![fullcapacity](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-with-all-capacity.yml/badge.svg?branch=master)](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-with-all-capacity.yml)
 
     ``` sh
     # 修改docker-compose.yml，保留方案0并删除其他方案。然后运行：
@@ -233,9 +232,9 @@ pip install peft
     ```
 
 1. 仅ChatGPT + GLM4 + 文心一言+spark等在线模型（推荐大多数人选择）
-[![basic](https://github.com/binary-husky/gpt_academic/actions/workflows/build-without-local-llms.yml/badge.svg?branch=master)](https://github.com/binary-husky/gpt_academic/actions/workflows/build-without-local-llms.yml)
-[![basiclatex](https://github.com/binary-husky/gpt_academic/actions/workflows/build-with-latex.yml/badge.svg?branch=master)](https://github.com/binary-husky/gpt_academic/actions/workflows/build-with-latex.yml)
-[![basicaudio](https://github.com/binary-husky/gpt_academic/actions/workflows/build-with-audio-assistant.yml/badge.svg?branch=master)](https://github.com/binary-husky/gpt_academic/actions/workflows/build-with-audio-assistant.yml)
+[![basic](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-without-local-llms.yml/badge.svg?branch=master)](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-without-local-llms.yml)
+[![basiclatex](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-with-latex.yml/badge.svg?branch=master)](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-with-latex.yml)
+[![basicaudio](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-with-audio-assistant.yml/badge.svg?branch=master)](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-with-audio-assistant.yml)
 
     ``` sh
     # 修改docker-compose.yml，保留方案1并删除其他方案。然后运行：
@@ -245,7 +244,7 @@ pip install peft
 P.S. 如果需要依赖Latex的插件功能，请见Wiki。另外，您也可以直接使用方案4或者方案0获取Latex功能。
 
 2. ChatGPT + GLM3 + MOSS + LLAMA2 + 通义千问（需要熟悉[Nvidia Docker](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#installing-on-ubuntu-and-debian)运行时）
-[![chatglm](https://github.com/binary-husky/gpt_academic/actions/workflows/build-with-chatglm.yml/badge.svg?branch=master)](https://github.com/binary-husky/gpt_academic/actions/workflows/build-with-chatglm.yml)
+[![chatglm](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-with-chatglm.yml/badge.svg?branch=main)](https://github.com/Unity-Billal-mesloub/gpt_academic/actions/workflows/build-with-chatglm.yml)
 
     ``` sh
     # 修改docker-compose.yml，保留方案2并删除其他方案。然后运行：
@@ -255,16 +254,16 @@ P.S. 如果需要依赖Latex的插件功能，请见Wiki。另外，您也可以
 
 ### 安装方法III：其他部署方法
 1. **Windows一键运行脚本**。
-完全不熟悉python环境的Windows用户可以下载[Release](https://github.com/binary-husky/gpt_academic/releases)中发布的一键运行脚本安装无本地模型的版本。脚本贡献来源：[oobabooga](https://github.com/oobabooga/one-click-installers)。
+完全不熟悉python环境的Windows用户可以下载[Release](https://github.com/Unity-Billal-mesloub/gpt_academic/releases)中发布的一键运行脚本安装无本地模型的版本。脚本贡献来源：[oobabooga](https://github.com/oobabooga/one-click-installers)。
 
-2. 使用第三方API、Azure等、文心一言、星火等，见[Wiki页面](https://github.com/binary-husky/gpt_academic/wiki/项目配置说明)
+2. 使用第三方API、Azure等、文心一言、星火等，见[Wiki页面](https://github.com/Unity-Billal-mesloub/gpt_academic-new/wiki/项目配置说明)
 
 3. 云服务器远程部署避坑指南。
-请访问[云服务器远程部署wiki](https://github.com/binary-husky/gpt_academic/wiki/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97)
+请访问[云服务器远程部署wiki](https://github.com/Unity-Billal-mesloub/gpt_academic-new/wiki/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97)
 
 4. 在其他平台部署&二级网址部署
-    - 使用Sealos[一键部署](https://github.com/binary-husky/gpt_academic/issues/993)。
-    - 使用WSL2（Windows Subsystem for Linux 子系统）。请访问[部署wiki-2](https://github.com/binary-husky/gpt_academic/wiki/%E4%BD%BF%E7%94%A8WSL2%EF%BC%88Windows-Subsystem-for-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F%EF%BC%89%E9%83%A8%E7%BD%B2)
+    - 使用Sealos[一键部署](https://github.com/Unity-Billal-mesloub/gpt_academic-new/issues)。
+    - 使用WSL2（Windows Subsystem for Linux 子系统）。请访问[部署wiki-2](https://github.com/Unity-Billal-mesloub/gpt_academic-new/wiki/%E4%BD%BF%E7%94%A8WSL2%EF%BC%88Windows-Subsystem-for-Linux-%E5%AD%90%E7%B3%BB%E7%BB%9F%EF%BC%89%E9%83%A8%E7%BD%B2)
     - 如何在二级网址（如`http://localhost/subpath`）下运行。请访问[FastAPI运行说明](docs/WithFastapi.md)
 
 <br><br>
@@ -291,7 +290,7 @@ P.S. 如果需要依赖Latex的插件功能，请见Wiki。另外，您也可以
 ### II：自定义函数插件
 编写强大的函数插件来执行任何你想得到的和想不到的任务。
 本项目的插件编写、调试难度很低，只要您具备一定的python基础知识，就可以仿照我们提供的模板实现自己的插件功能。
-详情请参考[函数插件指南](https://github.com/binary-husky/gpt_academic/wiki/%E5%87%BD%E6%95%B0%E6%8F%92%E4%BB%B6%E6%8C%87%E5%8D%97)。
+详情请参考[函数插件指南](https://github.com/Unity-Billal-mesloub/gpt_academic/wiki/%E5%87%BD%E6%95%B0%E6%8F%92%E4%BB%B6%E6%8C%87%E5%8D%97)。
 
 <br><br>
 
@@ -307,8 +306,8 @@ Tip：不指定文件直接点击 `载入对话历史存档` 可以查看历史h
 
 2. ⭐Latex/Arxiv论文翻译功能⭐
 <div align="center">
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/002a1a75-ace0-4e6a-94e2-ec1406a746f1" height="250" > ===>
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/9fdcc391-f823-464f-9322-f8719677043b" height="250" >
+<img src="https://github.com/Unity-Billal-mesloub/gpt_academic/assets/96192199/002a1a75-ace0-4e6a-94e2-ec1406a746f1" height="250" > ===>
+<img src="https://github.com/Unity-Billal-mesloub/gpt_academic/assets/96192199/9fdcc391-f823-464f-9322-f8719677043b" height="250" >
 </div>
 
 3. 虚空终端（从自然语言输入中，理解用户意图+自动调用其他插件）
@@ -317,7 +316,7 @@ Tip：不指定文件直接点击 `载入对话历史存档` 可以查看历史h
 - 步骤二：点击“虚空终端”
 
 <div align="center">
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/66f1b044-e9ff-4eed-9126-5d4f3668f1ed" width="500" >
+<img src="https://github.com/Unity-Billal-mesloub/gpt_academic/assets/96192199/66f1b044-e9ff-4eed-9126-5d4f3668f1ed" width="500" >
 </div>
 
 4. 模块化功能设计，简单的接口却能支持强大的功能
@@ -332,30 +331,25 @@ Tip：不指定文件直接点击 `载入对话历史存档` 可以查看历史h
 <img src="https://user-images.githubusercontent.com/96192199/226969067-968a27c1-1b9c-486b-8b81-ab2de8d3f88a.png" height="250" >
 </div>
 
-6. 装饰[live2d](https://github.com/fghrsh/live2d_demo)的小功能（默认关闭，需要修改`config.py`）
+6. OpenAI图像生成
 <div align="center">
-<img src="https://user-images.githubusercontent.com/96192199/236432361-67739153-73e8-43fe-8111-b61296edabd9.png" width="500" >
+<img src="https://github.com/Unity-Billal-mesloub/gpt_academic/assets/96192199/bc7ab234-ad90-48a0-8d62-f703d9e74665" width="500" >
 </div>
 
-7. OpenAI图像生成
+7. 基于mermaid的流图、脑图绘制
 <div align="center">
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/bc7ab234-ad90-48a0-8d62-f703d9e74665" width="500" >
+<img src="https://github.com/Unity-Billal-mesloub/gpt_academic/assets/96192199/c518b82f-bd53-46e2-baf5-ad1b081c1da4" width="500" >
 </div>
 
-8. 基于mermaid的流图、脑图绘制
+8. Latex全文校对纠错
 <div align="center">
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/c518b82f-bd53-46e2-baf5-ad1b081c1da4" width="500" >
+<img src="https://github.com/Unity-Billal-mesloub/gpt_academic/assets/96192199/651ccd98-02c9-4464-91e1-77a6b7d1b033" height="200" > ===>
+<img src="https://github.com/Unity-Billal-mesloub/gpt_academic/assets/96192199/476f66d9-7716-4537-b5c1-735372c25adb" height="200">
 </div>
 
-9. Latex全文校对纠错
+. 语言、主题切换
 <div align="center">
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/651ccd98-02c9-4464-91e1-77a6b7d1b033" height="200" > ===>
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/476f66d9-7716-4537-b5c1-735372c25adb" height="200">
-</div>
-
-10. 语言、主题切换
-<div align="center">
-<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/b6799499-b6fb-4f0c-9c8e-1b441872f4e8" width="500" >
+<img src="https://github.com/Unity-Billal-mesloub/gpt_academic/assets/96192199/b6799499-b6fb-4f0c-9c8e-1b441872f4e8" width="500" >
 </div>
 
 
@@ -423,7 +417,7 @@ timeline LR
 
 ### III：主题
 可以通过修改`THEME`选项（config.py）变更主题
-1. `Chuanhu-Small-and-Beautiful` [网址](https://github.com/GaiZhenbiao/ChuanhuChatGPT/)
+1. `Chuanhu-Small-and-Beautiful` 
 
 
 ### IV：本项目的开发分支
@@ -437,25 +431,14 @@ timeline LR
 ```
 代码中参考了很多其他优秀项目中的设计，顺序不分先后：
 
-# 清华ChatGLM2-6B:
-https://github.com/THUDM/ChatGLM2-6B
-
 # 清华JittorLLMs:
-https://github.com/Jittor/JittorLLMs
-
-# ChatPaper:
-https://github.com/kaixindelele/ChatPaper
-
-# Edge-GPT:
-https://github.com/acheong08/EdgeGPT
-
-# ChuanhuChatGPT:
-https://github.com/GaiZhenbiao/ChuanhuChatGPT
+https://github.com/Unity-and-wireless-communications/JittorLLMs
 
 # Oobabooga one-click installer:
-https://github.com/oobabooga/one-click-installers
+https://github.com/Unity-Educational-Formation/textgen
 
 # More：
-https://github.com/gradio-app/gradio
-https://github.com/fghrsh/live2d_demo
+https://github.com/Unity-Billal-mesloub/gradio
 ```
+
+
